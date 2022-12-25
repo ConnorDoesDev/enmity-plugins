@@ -14,10 +14,10 @@ const Animated = window.enmity.modules.common.Components.General.Animated;
 // so i had to manually import it and make ts ignore it
 
 // main declaration of modules being altered by the plugin
-const [
-  Router,
-  Clipboard,
-] = bulk(filters.byProps("transitionToGuild"), filters.byProps("setString"));
+const [Router, Clipboard] = bulk(
+  filters.byProps("transitionToGuild"),
+  filters.byProps("setString")
+);
 
 export default ({ manifest }: Props) => {
   const styles = StyleSheet.createThemedStyleSheet({
@@ -105,7 +105,8 @@ export default ({ manifest }: Props) => {
               style={[styles.image]}
               source={{
                 // image used for the icon, source takes either a require() or a uri
-                uri: "https://cdn.discordapp.com/avatars/744603004493365330/a_81b44cef321fc646226efa048937719d.gif",
+                uri:
+                  "https://cdn.discordapp.com/avatars/744603004493365330/a_81b44cef321fc646226efa048937719d.gif",
               }}
             />
           </Animated.View>

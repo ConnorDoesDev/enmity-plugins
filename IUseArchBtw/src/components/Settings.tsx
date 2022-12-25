@@ -35,9 +35,7 @@ const [
   Clipboard, // used to copy the dl link to keyboard
 ] = bulk(filters.byProps("transitionToGuild"), filters.byProps("setString"));
 
-export default ({
-  manifest,
-}: SettingsProps) => {
+export default ({ manifest }: SettingsProps) => {
   // icon and styles
   const styles = StyleSheet.createThemedStyleSheet({
     bottom_padding: {
@@ -77,11 +75,7 @@ export default ({
           }
         }}
       >
-        <Credits
-          manifest={
-            manifest
-          }
-        />
+        <Credits manifest={manifest} />
         <FormSection title="Utility">
           <FormRow
             label="Copy Debug Info"
