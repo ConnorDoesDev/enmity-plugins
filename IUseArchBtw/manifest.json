@@ -1,0 +1,13 @@
+{
+   "name": "I.U.A.BTW",
+   "version": "1.0.0",
+   "description": "Appends \"i use archh btw\" to every message you see i use arch btw.",
+   "build": "dev-0.0.1",
+   "src": "https://github.com/ConnorDoesDev/enmity-plugins/tree/dev/IUseArchBTW/",
+   "authors": [
+      {
+         "name": "Connor",
+         "id": "744603004493365330"
+      }
+   ]
+}

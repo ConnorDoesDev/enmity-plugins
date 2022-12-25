@@ -13,7 +13,6 @@ const Opener = getByProps("openLazy");
 
 import Settings from "./components/Settings";
 
-import UpdateButton from "./components/UpdateButton";
 import manifest from "../manifest.json";
 
 const Downloader: plugins.Plugin = {

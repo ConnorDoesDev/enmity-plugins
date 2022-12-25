@@ -8,6 +8,8 @@
    <h3>Enmity Plugins</h3>
 
    Collection of Enmity plugins I've made.<br />
+
+   Thanks to [https://github.com/acquitelol](acquitelol) for this amazing settings page! Licensed under GPL-3.0.
 </div>
 
 ---

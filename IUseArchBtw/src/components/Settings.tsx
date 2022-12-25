@@ -12,6 +12,7 @@ import {
   Constants,
   Navigation,
   React,
+  Settings,
   Storage,
   StyleSheet,
   Toasts,
