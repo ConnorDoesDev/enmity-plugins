@@ -1,0 +1,12 @@
+{
+   "name": "Presence",
+   "version": "1.0.0",
+   "description": "A custom rich presence",
+   "authors": [
+      {
+         "name": "Fiery",
+         "id": "890228870559698955"
+      }
+   ],
+   "color": "#f69220"
+}

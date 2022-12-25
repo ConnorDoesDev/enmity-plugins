@@ -1,0 +1,13 @@
+{
+   "name": "Downloader",
+   "version": "1.0.1",
+   "description": "Install plugins or themes by simply pressing a button.",
+   "build": "dev-0.0.3",
+   "src": "http://macbook-air-von-halil.local:8000/dist/Downloader.js",
+   "authors": [
+      {
+         "name": "Connor",
+         "id": "744603004493365330"
+      }
+   ]
+}
