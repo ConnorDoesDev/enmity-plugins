@@ -151,7 +151,7 @@ async function install_plugin(
           cancelText: "Cancel",
           onConfirm: () => {
             Router.openURL(
-              `https://github.com/spinfal/enmity-plugins/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D%20${
+              `https://github.com/ConnorDoesDev/enmity-plugins/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D%20${
                 manifest["name"]
               }%20Update%20Error%3A%20${
                 !is_ghost_patch ? `v${type}` : `b${type}`
